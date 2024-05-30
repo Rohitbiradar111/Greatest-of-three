@@ -19,5 +19,14 @@ public class Greatestofthree {
         {
             System.out.println("c is greatest");
         }
+
+        //Another method is 
+        int x = 10;
+        int y = 25;
+        int z = 15;
+        int res1 = Math.max(x,y);
+        int res = Math.max(res1,z);
+        System.out.println("Greatest is "+res);
+
     }
 }
